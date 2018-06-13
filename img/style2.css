@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+	background-image: url("sar.jpg");
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20%;
+}
+h1{
+	color: red;
+}
+#land{
+	width: 450px;
+	height: 300px;
+	padding: 10px;
+	transition: all 1s;
+}
+#pot{
+	width: 300px;
+	height: 450px;
+	padding: 10px;
+	transition: all 1s;
+}
+}
+img:hover{
+	transform:scale(1.05);
+}
+h1{
+	width:400px;
+	border-bottom: 5px solid #007979;
+	text-align: center;
+}
+.drople {
+  background: skyblue;
+  border-radius: 1px;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  transform-origin: top;
+  transition: transform 60s;
+  width: 100px;
+}
+.drople:hover {
+  transform: rotate(360deg);
+}
